@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap%27");
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background: #1e1e1e;
+font-family: "Inter", sans-serif;
+}
+.container {
+margin: 10px;
+background-color: #f5fdff;
+border-radius: 40px;
+display: flex;
+justify-content: space-between;
+}
+
+.right-section {
+width: 45%;
+display: flex;
+align-items: center;
+background: linear-gradient(177.26deg, #0b3948 10.7%, #1d6f8a 103.87%);
+border-radius: 40px;
+padding: 100px;
+margin: 20px;
+}
+.left-section {
+width: 50%;
+display: flex;
+padding: 60px 50px;
+justify-content: center;
+flex-direction: column;
+height: 100%;
+}
+.sign-in {
+margin: 50px;
+margin-left: 100px;
+display: flex;
+flex-direction: column;
+width: 100%;
+max-width: 360px;
+}
+h1 {
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #0b3948;
+margin-bottom: 10px;
+}
+.email,
+.password {
+height: 40px;
+width: 100%;
+border-radius: 10px;
+padding-top: 0%;
+border: 1px solid #454545;
+border-radius: 8px;
+}
+
+a {
+color: #0b3948;
+font-weight: bold;
+text-decoration: none;
+}
+.auth-option {
+display: flex;
+justify-content: space-between;
+font-size: 13px;
+margin-top: 20px;
+}
+button {
+background-color: #0b3948;
+color: white;
+height: 40px;
+width: 100%;
+border-radius: 10px;
+margin: 20px 0px;
+font-size: 16px;
+}
+.para {
+display: flex;
+justify-content: center;
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.right-img {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+animation: verticalAlign 10s ease-in-out infinite;
+}
+@keyframes verticalAlign {
+0% {
+    transform: translate(0%, 20%);
+}
+50% {
+    transform: translate(0%, -20%);
+}
+100% {
+    transform: translate(0%, 20%);
+}
+}
+.email-label,
+.password-label {
+font-size: 16px;
+margin-top: 56px;
+margin-bottom: 10px;
+}
+.password-label {
+margin-top: 20px;
+}
+
+.input {
+text-indent: 10px;
+}
+.remember-me {
+display: flex;
+align-items: center;
+gap: 5px;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
